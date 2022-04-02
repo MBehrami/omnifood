@@ -112,11 +112,7 @@
     
 }
 .steps-content{
-    display: grid;
-    justify-items: center;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 6.4rem;
-    column-gap: 4.8rem;
+    
 }
 .steps-content img{
     width: 35%;
@@ -170,3 +166,110 @@
 }
 
 /*********Steps End***********/
+
+/*********Feature-In Start***********/
+.feature-in-header{
+    text-align: center;
+}
+.feature-in-header{
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #999;
+    margin-bottom: 4.8rem;
+}
+.featured-in-images{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.fi-image{
+    height: 3.2rem;
+    filter: brightness(0);
+    opacity: 50%;
+
+}
+/*********Feature-In End***********/
+
+/*********Testimonials & Galery Start***********/
+.testimonials-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    row-gap: 4.8rem;
+    column-gap: 3.2rem;
+}
+.testimonials-galery{
+    background-color: #fdf2e9;
+}
+.testimonials-header{
+    padding-bottom: 3.2rem;
+}
+.testimonials-body figure{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+.author-img img{
+    width: 20%;
+    border-radius: 50%;
+}
+.author-testimonail{
+    font-size: 1.8rem;
+    line-height: 1.5;
+    letter-spacing: 1.2;
+}
+.author-info{
+    font-size: 1.4rem;
+    color:#999;
+}
+
+.galery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.6rem;
+    
+}
+.container-img{    
+    overflow: hidden;
+}
+.galery img{
+    width: 100%;
+    transition: all 0.3s;
+}
+.galery img:hover{
+    transform: scale(1.1);
+}
+
+/*********Testimonials & Galery End***********/
+
+/*********Meals Start***********/
+.meals-header{
+    text-align: center;
+}
+
+.meals-header span{
+    display: block;
+    margin-bottom: 2.4rem;
+}
+.meals-footer{
+    text-align: center;
+    text-decoration: none;
+}
+.meals-recepies{
+    display: inline-block;
+    font-size: 1.6rem;
+    color: #e67e22;
+    letter-spacing: 1.05px;
+    
+    border-bottom: 1px solid currentColor;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.4rem;
+}
+.meals-recepies:hover{
+    border: none;
+    border-bottom: 1px solid transparent;
+}
+/*********Meals End***********/
